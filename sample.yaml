@@ -1,0 +1,24 @@
+dev:
+  api_url: http://sample.com/api/dev/users
+  api_login:
+    user: dev
+    pass: pass
+    port: 8080
+stg:
+  api_url: http://sample.com/api/stg/users
+  api_login:
+    user: stg
+    pass: pass
+    port: 8080
+pro:
+  api_url: http://sample.com/api/pro/users
+  api_login:
+    user: pro
+    pass: pass
+    port: 8080
+all:
+  api_url: http://localhost/api/dev/users
+  api_login:
+    user: dev
+    pass: pass
+    port: 8080 
